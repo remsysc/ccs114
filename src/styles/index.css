@@ -1,0 +1,76 @@
+@import url("./resets.css");
+@import url("./services.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+@import url("./about.css");
+@import url("./contact.css");
+@import url("./dreams.css");
+
+
+.navbar li {
+display: inline;
+}
+body {
+color: white;
+font-family: "Kode Mono", serif;
+font-optical-sizing: auto;
+font-weight: normal;
+font-style: normal;
+}
+.top-header {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: .7em;
+text-align: center;
+background: rgb(50, 179, 50);
+}
+.top-header h4 {
+margin-top: 1.5em;
+}
+.navbar {
+background: rgb(25, 24, 32);
+text-align: center;
+padding: 0.8em;
+}
+.navbar li {
+padding: 1.7em;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+main {
+color: black;
+min-height: auto;
+}
+main section {
+display: flex;
+flex-direction: column;
+margin-left: 2.5em;
+}
+main article {
+margin-top: 2.5em;
+}
+main p {
+padding: 1.5em;
+}
+#services {
+padding-bottom: 0.5em;
+}
+.contact p {
+padding: 0.5em;
+}
+.contact h2 {
+margin-bottom: 0.5em;
+}
+footer {
+background: rgb(25, 24, 32);
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100vw;
+color: white;
+padding-top: .5em;
+padding-bottom: .5em;
+}

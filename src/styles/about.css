@@ -1,0 +1,30 @@
+.about-main{
+
+    color: black;
+    min-height: 100%;
+}
+
+
+ 
+
+  .about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-section h1{
+    margin: 1em;
+  }
+
+  .about-text{
+    width: 50%;
+    text-wrap: wrap;
+    border: .8px black solid;
+    border-radius: 1em;
+    padding: 1em;
+  }
+
+#rem{
+    margin-bottom: 3.5em;
+}
