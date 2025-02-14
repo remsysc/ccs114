@@ -1,19 +1,19 @@
 .dreams-main {
   width: 100vw;
-  height: 100vh; /* Use 100vh to cover the full viewport height */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: relative; /* Add this to contain the absolutely positioned video */
-  overflow: hidden; /* Prevent scrollbars caused by the video */
+  position: relative;
+  overflow: hidden;
 }
 
 .astro {
   color: white;
   padding: 2em;
   width: 65vw;
-  z-index: 0; /* Ensure content is above the video */
+  z-index: 0;
 }
 
 #myVideo {
@@ -22,6 +22,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the video covers the entire area */
-  z-index: -1; /* Place the video behind the content */
+  object-fit: cover;
+  z-index: -1;
 }
